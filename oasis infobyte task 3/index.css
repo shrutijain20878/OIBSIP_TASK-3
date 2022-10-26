@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+::placeholder{
+    color: white;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+body{
+    background-image: linear-gradient(rgba(104, 102, 102, 0.3),rgba(106, 101, 101, 0.3)), url(/images/land.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 90%;
+    background-position: center;
+    position: relative;
+}
+.sem{
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 6% auto;
+    margin-left: 40%;
+    margin-top: 10%;
+    padding: 5px;
+}
+#btn{
+    width: 300px;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: black;
+    cursor: pointer;
+}
+#num{
+    width: 300px;
+    color: aliceblue;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: black;
+}
+#temp{
+    width: 300px;
+    color: aliceblue;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: black;
+    cursor: pointer;
+}
+#result{
+    width: 300px;
+    color: aliceblue;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: black;
+}
+#btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+#num:hover{
+    background-color: black;
+    color: white;
+}
+#temp:hover{
+    background-color: black;
+    color: whitesmoke;
+}
